@@ -1,0 +1,53 @@
+input[type = text]{
+    width: 95%;
+}
+textarea{
+    width: 95%;
+    height: 100px;
+}
+input[type = tel]{
+    width: 95%;
+}
+
+.section-one{
+    background: pink;
+    padding: 30px;
+}
+.section-one .container{
+    border: 5px solid #EDEDED;
+    background: plum;
+}
+.section-one .inner-main{
+    padding: 30px;
+}
+h5{
+    font-size: 16px;
+    font-weight: 500;
+}
+.section-one .inner-title{
+    border-bottom: 1px solid grey;
+}
+.section-one .inner-body{
+    margin-top: 15px;
+}
+.row{
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.inner-main .footer{
+    border-top: 1px solid grey ;
+    padding: 20px 0;
+}
+.inner-main .footer .inner-icon {
+    font-size: 30px;
+    margin-right: 20px;
+}
+.inner-main .footer .inner-icon i{
+    color: antiquewhite;
+}
+.inner-main .footer .inner-btn{
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 50%;
+}

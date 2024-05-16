@@ -1,0 +1,40 @@
+.section-one{
+    background: #fff;
+    background: pink;
+    padding: 100px;
+}
+.section-one .container{
+    border: 2px solid blue;
+    background: #fff;
+}
+.section-one .inner-title{
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+    border-left: 3px solid red;
+}
+.section-one .inner-item{
+    margin-bottom: 50px;
+
+}
+.section-one .inner-item .inner-img{
+    overflow: hidden;
+
+}
+.section-one .inner-item img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+}
+
+
+.section-one .inner-item .inner-icon i{
+    color: rgb(214, 49, 49);
+    font-size: 20px;
+}
+
+.section-one .inner-item img:hover{
+    scale: 1.1;
+}
